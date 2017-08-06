@@ -1,17 +1,15 @@
-Zespó³:
+ZespÃ³Å‚:
 Karolina Skiba (lider)
 Tomasz Skiba
 
 Mini Gra- EatMe
-Program bêdzie przedstawia³ grê, w której gracz porusza siê pionkiem po planszy i zbiera losowo generowane obiekty.
+Zbierz losowo generowane obiekty.
 
-- Utworzona zostanie plansza statyczna (o niezmieniaj¹cym siê wnêtrzu) o sta³ych wymiarach przypominaj¹ca labirynt, (K)
-- w której generowane bêd¹ 3 obiekty w losowych miejscach labiryntu. (K)
-- Celem gracza bêdzie zebranie ww obiektów, przy czym (T)
-- pionek zawsze startowaæ bêdzie z tego samego miejsca na planszy, (T)
-- bez mo¿liwoœci przechodzenia przez œciany. (T)
++ technologia: Console
 
-Dodatkowo:
-- zostanie ukazany zegar wyœwietlaj¹cy na bie¿¹co czas trwania gry od momentu jej wystartowania a¿ do zebrania ostatniego obiektu. (K)
-
-Ca³oœæ zostanie wykonana w technologii Console, z wykorzystaniem plików *.h i *.cpp
+- Przedstaw siÄ™ - nazwa i kolor gracza, wzÃ³r pionka. (T)
+- 5 plansz statycznych (o z gÃ³ry okreÅ›lonych: wnÄ™trzu i wymiarach) - z ktÃ³rych losowo bÄ™dzie wyÅ›wietlana jedna. (K)
+- Do zebrania bÄ™dÄ… 3 obiekty wygenerowane w losowych miejscach labiryntu. (K)
+- Pionek zawsze startowaÄ‡ bÄ™dzie z tego samego miejsca na planszy, z zablokowanÄ… moÅ¼liwoÅ›ciÄ… przechodzenia przez Å›ciany. (T)
+- Na bieÅ¼Ä…co zliczany bÄ™dzie czas trwania gry. (K)
+- BÄ™dzie moÅ¼na podejrzeÄ‡ listÄ™ graczy z 10 najlepszymi wynikami. (T)
