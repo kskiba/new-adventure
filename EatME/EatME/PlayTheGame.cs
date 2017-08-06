@@ -64,7 +64,6 @@ namespace EatME
                     case ConsoleKey.LeftArrow: control.Left(); break;
                     case ConsoleKey.F1: firstPlay = true; NewPlayer(); break;
                     case ConsoleKey.F2: bestPlayers.DisplayList(); break;
-                    //case ConsoleKey.F4: bestPlayers.ClearTheFile(); break; //wrzuć do mini menu (razem z zamknięciem rankingu) w widoku rankingu
                     case ConsoleKey.F3: firstPlay = false; NewPlayer(); break; //changeBoard
                     case ConsoleKey.Escape: Exit(); return;
                     default: break;

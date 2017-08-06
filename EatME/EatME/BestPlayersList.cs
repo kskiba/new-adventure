@@ -47,15 +47,6 @@ namespace EatME
             }
         }
 
-        public void ClearTheFile() //do sprawdzenia
-        {
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-                //File.WriteAllText(path, string.Empty);
-            }
-        }
-
         public void DisplayList()
         {
             ResetValues();
