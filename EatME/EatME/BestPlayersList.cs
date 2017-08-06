@@ -17,7 +17,7 @@ namespace EatME
         private int x = 5;
         private int z = 25;
         private int y = 22;
-        private string path = @"C:\Users\kskibax\Desktop\MyGame\new-adventure\BestPlayersList.xml";
+        private string path = Directory.GetCurrentDirectory() + "/BestPlayersList.xml";
 
         public Tuple<int, int, int, int> ResetValues()
         {
